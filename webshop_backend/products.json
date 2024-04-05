@@ -1,0 +1,18 @@
+{
+  "cartItems": {
+    "1": {
+      "id": 1,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "price": 50,
+      "quantity": 1,
+      "total": 50
+    },
+    "13": {
+      "id": 13,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "price": 85,
+      "quantity": 1,
+      "total": 85
+    }
+  }
+}

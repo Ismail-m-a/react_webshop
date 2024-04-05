@@ -1,0 +1,80 @@
+.login-container {
+    width: 580px;
+    height: auto; /* Adjust height based on content */
+    background: white;
+    padding: 40px 60px;
+    margin: 100px auto 0; /* Center in viewport */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+  }
+  
+  /* Since the main background is part of the .loginsignup class,
+     ensure the Login component is wrapped in a div with this class. */
+  .loginsignup {
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding-top: 100px; /* Adjusted to align with .login-container margin */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center .login-container vertically */
+  }
+  
+  .login-container h2 {
+    margin: 20px 0px;
+    text-align: center; /* Center the title */
+    color: #5c5c5c; /* Matching font color */
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+  }
+  
+  .login-form .form-group input {
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+  }
+  
+  .login-button {
+    width: 100%; /* Adjust to match input fields */
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    text-align: center;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .signup-link a {
+    color: #ff4141;
+    font-weight: 600;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+  }
+  
+  .login-error {
+    text-align: center;
+    color: #ff4141; /* Error message color */
+    font-weight: 500;
+  }
+  
